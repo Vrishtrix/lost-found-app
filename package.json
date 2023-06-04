@@ -20,6 +20,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@master/css.svelte": "^2.0.0-beta.159"
+		"@master/css.svelte": "^2.0.0-beta.159",
+		"@master/normal.css": "^2.0.0-beta.159"
 	}
 }
