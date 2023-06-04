@@ -20,7 +20,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@lucia-auth/adapter-prisma": "^2.0.0",
 		"@master/css.svelte": "^2.0.0-beta.159",
-		"@master/normal.css": "^2.0.0-beta.159"
+		"@master/normal.css": "^2.0.0-beta.159",
+		"lucia-auth": "^1.7.1"
 	}
 }
