@@ -24,7 +24,11 @@
 
 <div class="flex jc:space-between ai:center f:bold">
 	<span>Edit Profile</span>
-	<button class="bg:red fg:white px:20 py:15 r:10"> Log Out </button>
+	<form method="POST">
+		<button type="submit" class="bg:red fg:white px:20 py:15 r:10">
+			Log Out
+		</button>
+	</form>
 </div>
 
 <div>

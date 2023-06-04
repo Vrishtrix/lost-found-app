@@ -9,10 +9,14 @@
 	<div
 		class="grid grid-cols:2@sm pt:10 pb:5 gap:25 w:full bb:1|solid|gray-80"
 	>
-		<div class="flex gap:20 ai:center jc:center jc:flex-start@sm">
+		<a
+			href="/dashboard"
+			class="flex gap:20 ai:center jc:center jc:flex-start@sm"
+		>
 			<img src="/images/logo.png" alt="logo" class="w:50" />
 			Lost Found.
-		</div>
+		</a>
+
 		<div class="flex ai:center jc:center jc:flex-end@sm gap:50">
 			<div class="flex ai:center gap:10">
 				<button
@@ -23,13 +27,14 @@
 					</SvelteTooltip>
 				</button>
 
-				<button
+				<a
+					href="/profile"
 					class="fg:white bg:gray-90:hover cursor:pointer p:10 r:10"
 				>
 					<SvelteTooltip tip="Profile" color="#000" bottom>
 						<User color="#000" />
 					</SvelteTooltip>
-				</button>
+				</a>
 			</div>
 
 			<button class="my:15 py:15 px:25 bg:black fg:white r:10">

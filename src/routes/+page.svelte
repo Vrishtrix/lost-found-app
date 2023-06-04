@@ -52,8 +52,8 @@
 			</form>
 		</div>
 
-		<div class="f:14 fg:gray-60">
-			&copy; Copyright 2023. All Rights Reserved.
-		</div>
+		<a href="/register" class="f:14 fg:gray-60">
+			Don't have an account? Register now.
+		</a>
 	</div>
 </div>
