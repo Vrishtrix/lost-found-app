@@ -43,9 +43,12 @@
 					required
 				/>
 
-				<button type="submit" class="my:15 py:15 bg:black fg:white r:10"
-					>Sign In</button
+				<button
+					type="submit"
+					class="my:15 py:15 bg:black fg:white r:10"
 				>
+					Sign In
+				</button>
 			</form>
 		</div>
 
