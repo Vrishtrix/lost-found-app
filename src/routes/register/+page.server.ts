@@ -2,6 +2,12 @@ import { fail, redirect } from '@sveltejs/kit';
 import { auth } from '$lib/server/lucia';
 import type { PageServerLoad, Actions } from './$types';
 
+export const load: PageServerLoad = async ({ locals }) => {
+	const { session } = await locals.auth.validateUser();
+	if (session) throw redirect(302, '/dashboard');
+	return {};
+};
+
 export const actions: Actions = {
 	default: async ({ request, locals }) => {
 		const form = await request.formData();
@@ -31,10 +37,4 @@ export const actions: Actions = {
 			return fail(400);
 		}
 	},
-};
-
-export const load: PageServerLoad = async ({ locals }) => {
-	const { session } = await locals.auth.validateUser();
-	if (session) throw redirect(302, '/dashboard');
-	return {};
 };
