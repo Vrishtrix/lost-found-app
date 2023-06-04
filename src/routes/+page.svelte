@@ -22,7 +22,7 @@
 				use:enhance
 			>
 				<label for="username" class="fg:gray-30">
-					Registrator Number:
+					Registration Number:
 				</label>
 				<input
 					type="text"
